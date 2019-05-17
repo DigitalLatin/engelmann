@@ -13,6 +13,8 @@ Your job is to reconcile the data in certain columns of your copy of `Engelmann.
 
 Each copy of `Engelmann.csv` includes the columns `Author`, `Title`, and `Editor`, all of which contain data from the Zotero collection that you compiled. Since that data originated in a variety of resources, there are variations in spelling, language, punctuation, etc., between the different entries. It is important to preserve that data, but we also need to have a standard way of referring to it. That is why we have authority records from the DLL's Catalog.
 
+If you decide to sort the data in your copy of `Engelmann.csv`, be sure to select _all_ of the columns and rows before you execute a sort command. Otherwise, your data will become unorganized and, consequently, of little use.
+
 ### General Procedures
 Use Git to clone this repository onto your computer so that you will have your own copy of the files to edit.
 
@@ -25,7 +27,7 @@ After you have finished a session:
 2. Execute `git commit -m` and add a brief message about what you did during the session.
 3. Execute `git push` to push your changes to the remote repository.
 
-You may also use the Git features incorporated into the Atom editor or the GitHub desktop application to accomplish these tasks.
+You may also use the Git features incorporated into the Atom editor or the GitHub desktop application to accomplish these tasks. It is a good idea to execute the Git routine enumerated above before you do any sorting so that you can always revert your changes to a previous version, if necessary.
 
 #### Authors and Editors
 The data in the `Author` and `Editor` columns in your copy of `Engelmann.csv` should have corresponding authorities in the file `dll-author-authorities.csv`, which has one author record per row, with multiple versions of each author's name in the columns. The column `DLL Author Record` contains the data that you will copy and insert into the column `DLL Author Name` in your copy of `Engelmann.csv`.
