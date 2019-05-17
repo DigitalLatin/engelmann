@@ -16,7 +16,7 @@ Each copy of `Engelmann.csv` includes the columns `Author`, `Title`, and `Editor
 ### General Procedures
 Use Git to clone this repository onto your computer so that you will have your own copy of the files to edit.
 
-Work only on the column(s) that has/have been assigned to you.
+Work only on the column(s) assigned to you.
 
 At the beginning of every working session, execute `git pull` to obtain the most recent version of the files in the repository.
 
